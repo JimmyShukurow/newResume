@@ -4,13 +4,13 @@ var id3 = null;
 var id4 = null;
 var id5 = null;
 var id6 = null;
-var radius = Math.sqrt(2) * 125;  
+var radius = Math.sqrt(2) * 120;  
 var oneDegree = Math.PI / 180;
 
 var forexport = {
      menuOpen() {
-        let xStart = 105;
-        let yStart = 105;
+        let xStart = 100;
+        let yStart = 100;
         let startAngle = Math.PI / 6;
         let intervalAngle = Math.PI / 3;
         var elem1 = document.getElementById('menu1'); 
