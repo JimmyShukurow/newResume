@@ -21,8 +21,8 @@
         </div>
     </div>
      <v-row class="extra">
-          <router-link to="/profile"> <v-btn>  profile </v-btn>  </router-link>   
-         <router-link to="/resume"> <v-btn> resume </v-btn>      </router-link>  
+          <router-link to="/portfolio"> <v-btn color="#385F73" dark>  portfolio </v-btn>  </router-link>   
+         <router-link to="/resume"> <v-btn color="#385F73" dark> resume </v-btn>      </router-link>  
       </v-row>
   </div>
 </template>

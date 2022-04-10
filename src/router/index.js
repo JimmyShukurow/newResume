@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainView from '../views/MainView.vue'
-import ProfileView from '../views/ProfileView.vue'
+import PortfolioView from '../views/PortfolioView.vue'
 import ResumeView from '../views/ResumeView.vue'
 
 Vue.use(VueRouter)
@@ -13,9 +13,9 @@ const routes = [
     component: MainView
   },
   {
-    path: '/profile',
-    name: 'profile',
-    component: ProfileView
+    path: '/portfolio',
+    name: 'portfolio',
+    component: PortfolioView
   },
   {
     path: '/resume',
