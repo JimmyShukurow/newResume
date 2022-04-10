@@ -56,11 +56,4 @@ body {
   -o-animation-timing-function:      linear;
   animation-timing-function:         linear;
   
-  &::before {
-    content: "Jemshit Shukurov";
-
-    font-size: 4rem;
-    font-weight: 800;
-    font-style: normal;
-  }
 }
