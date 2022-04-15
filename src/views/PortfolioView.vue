@@ -2,24 +2,37 @@
   <div class="home">
     <v-container class="main">
       <header>
-        <v-btn > click me </v-btn>
+        <a
+          href="https://jimmyshukurow.github.io/Resume-Static/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><v-btn> old resume </v-btn></a
+        >
         <router-link to="/"> <v-btn> get back </v-btn> </router-link>
       </header>
-      <v-row>
+      <v-row cols="8">
         <v-col cols="12" sm="4">
           <v-card color="#385F73" dark>
-            <v-card-title class="text-h5"> Vue Example Project </v-card-title>
+            <v-card-title class="text-h5"> Vuex Example Project </v-card-title>
 
-            <v-card-subtitle> 
-              Project Done by Vue to demonstrate routes lorem imsasdasjdlajsdlasdl
+            <v-card-subtitle>
+              Project done using vue to demonstrate Vuex and its benefits. Very
+              little Project.
             </v-card-subtitle>
 
             <v-card-actions>
-              <v-btn text> <a href="http://" target="_blank" rel="noopener noreferrer">Details</a>  </v-btn>
+              <v-btn text>
+                <a
+                  href="https://jimmyshukurow.github.io/Vuex/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Details</a
+                >
+              </v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
-         <v-col cols="12" sm="4">
+        <v-col cols="12" sm="4">
           <v-card color="#385F73" dark>
             <v-card-title class="text-h5"> Unlimited music now </v-card-title>
 
@@ -33,7 +46,7 @@
             </v-card-actions>
           </v-card>
         </v-col>
-         <v-col cols="12" sm="4">
+        <v-col cols="12" sm="4">
           <v-card color="#385F73" dark>
             <v-card-title class="text-h5"> Unlimited music now </v-card-title>
 
