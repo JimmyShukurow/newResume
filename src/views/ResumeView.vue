@@ -16,7 +16,7 @@
 export default {
   methods:{
     openResume() {
-      window.open("resume.pdf", "_blank");
+      window.open("Resume.pdf", "_blank");
     }
   }
 }
