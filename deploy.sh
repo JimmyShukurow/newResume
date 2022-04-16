@@ -13,7 +13,7 @@ cd dist
 echo 'jemshitshukurov.website' > CNAME
 
 # git init
-git add -A
+git add -A 
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
