@@ -130,6 +130,7 @@ export default {
 @media only screen and (max-width: 900px) {
   .extra {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 a {
