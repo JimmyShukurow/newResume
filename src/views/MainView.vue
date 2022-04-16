@@ -6,20 +6,23 @@
     <span class="profession">
       Software Engineer & Developer 
     </span>
-    
-    <div style="display:flex; justify-content:center">
-        <div class="animeClass">
-          <img class="photo" alt="Vue logo" src="../assets/photo.jpeg">
-          <!-- menu items start here -->
-          <div id="menu1"  class="menu-image " > <a href="#" class="fa fa-telegram"></a> </div>
-          <div id="menu2" class="menu-image  "> <a href="#" class="fa fa-twitter"></a> </div>
-          <div id="menu3"  class="menu-image "> <a href="https://github.com/JimmyShukurow" target="_blank" class="fa fa-github"></a>  </div>
-          <div id="menu4" class="menu-image  "> <a href="https://www.linkedin.com/in/jemshit-shukurov/"  target="_blank" class="fa fa-linkedin"></a></div>
-          <div id="menu5" class="menu-image  ">  <a href="https://vimeo.com/573308795" target="_blank" class="fa fa-vimeo"></a> </div>
-          <div id="menu6" class="menu-image  ">  <a href="https://www.youtube.com/channel/UCBM_vaLi6Ir-PEFu5gv5CKg" target="_blank" class="fa fa-youtube-play"></a> </div>
-          <!-- end of menu items -->
-        </div>
-    </div>
+
+    <v-col cols="12" sm="12" >
+      <div style="display:flex; justify-content:center">
+          <div class="animeClass">
+            <img class="photo" alt="Vue logo" src="../assets/photo.jpeg">
+            <!-- menu items start here -->
+            <div id="menu1"  class="menu-image " > <a href="#" class="fa fa-telegram"></a> </div>
+            <div id="menu2" class="menu-image  "> <a href="#" class="fa fa-twitter"></a> </div>
+            <div id="menu3"  class="menu-image "> <a href="https://github.com/JimmyShukurow" target="_blank" class="fa fa-github"></a>  </div>
+            <div id="menu4" class="menu-image  "> <a href="https://www.linkedin.com/in/jemshit-shukurov/"  target="_blank" class="fa fa-linkedin"></a></div>
+            <div id="menu5" class="menu-image  ">  <a href="https://vimeo.com/573308795" target="_blank" class="fa fa-vimeo"></a> </div>
+            <div id="menu6" class="menu-image  ">  <a href="https://www.youtube.com/channel/UCBM_vaLi6Ir-PEFu5gv5CKg" target="_blank" class="fa fa-youtube-play"></a> </div>
+            <!-- end of menu items -->
+          </div>
+      </div>
+    </v-col>
+   
      <v-row class="extra">
           <router-link to="/portfolio"> <v-btn color="#385F73" dark>  portfolio </v-btn>  </router-link>   
          <router-link to="/resume"> <v-btn color="#385F73" dark> resume </v-btn>      </router-link>  
@@ -123,6 +126,11 @@ export default {
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
+}
+@media only screen and (max-width: 900px) {
+  .extra {
+    margin-top: 50px;
+  }
 }
 a {
   text-decoration: none;
