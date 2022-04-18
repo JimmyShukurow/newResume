@@ -57,3 +57,9 @@ body {
   animation-timing-function:         linear;
   
 }
+
+@media screen and (max-width: 900px) {
+  body {
+    margin-top: 1rem;
+  }
+}

@@ -132,6 +132,12 @@ export default {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .name-surname {
+    font-size: 2rem;
+  }
+  .profession {
+    font-size: 25px;
+  }
 }
 a {
   text-decoration: none;
