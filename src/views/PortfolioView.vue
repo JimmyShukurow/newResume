@@ -8,6 +8,8 @@
         <router-link to="/"> <v-btn> get back </v-btn> </router-link>
       </header>
 
+      <!-- These all are Vue Fun project -->
+
       <h1>Vue Fun Projects</h1>
       <br />
 
@@ -37,7 +39,40 @@
           </v-card>
         </v-col>
       </v-row>
+      <!-- End Of Vue Fun project -->
 
+
+      <!-- These all are Laravel Fun project -->
+      <h1>Laravel Fun Projects</h1>
+      <br />
+      <v-row cols="8" class="rows">
+        <v-col
+          cols="12"
+          sm="4"
+          v-for="(laravelFunProject, index) in laravelFunProjects"
+          :key="index"
+        >
+          <v-card color="#385F73" dark>
+            <v-card-title class="text-h5">
+              {{ laravelFunProject.title }}</v-card-title
+            >
+
+            <v-card-subtitle>
+              {{ laravelFunProject.description }}
+            </v-card-subtitle>
+
+            <v-card-actions>
+              <v-spacer></v-spacer>
+               <a :href="laravelFunProject.githubLink" target="_blank">
+                <v-btn text> Github </v-btn>
+              </a>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+      </v-row>
+      <!-- End of Laravel Fun project -->
+
+      <!-- These all are Laravel Serious project -->
       <h1>Laravel Projects</h1>
       <br />
       <v-row cols="8">
@@ -63,7 +98,7 @@
               <v-spacer></v-spacer>
               <v-tooltip top>
                 <template v-slot:activator="{ on }">
-                  <v-btn text  v-on="on"> Github </v-btn>
+                  <v-btn text v-on="on"> Github </v-btn>
                 </template>
                 <h1>Top tooltip</h1>
               </v-tooltip>
@@ -71,6 +106,8 @@
           </v-card>
         </v-col>
       </v-row>
+      <!-- End of Laravel Serious project -->
+      
     </v-container>
   </div>
 </template>
@@ -105,6 +142,28 @@ export default {
         githubLink: "https://github.com/JimmyShukurow/VueAdminPanel",
       },
     ],
+
+    laravelFunProjects: [
+      {
+        title: "Cumhuriyet Kargo",
+        description: "This Project is done using Laravel and Jquery.",
+        details: "#",
+        githubLink: "https://github.com/JimmyShukurow/CumhuriyetKargo",
+      },
+      {
+        title: "Generation Tree",
+        description: "This Project is done using Laravel and Jquery.",
+        details: "#",
+        githubLink: "https://github.com/JimmyShukurow/shukurupler.denastiyasy",
+      },
+       {
+        title: "Admin Panel",
+        description: "This Project is done using Laravel.",
+        details: "#",
+        githubLink: "https://github.com/JimmyShukurow/adminpanel",
+      },
+    ],
+
     laravelProjects: [
       {
         title: "Perpa Expo Laravel",
