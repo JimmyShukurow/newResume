@@ -40,6 +40,39 @@
         </v-col>
       </v-row>
       <!-- End Of Vue Fun project -->
+      <!-- These all are JavaFX fun projects -->
+      <h1>JavaFX Fun Projects</h1>
+      <br />
+
+      <v-row cols="8" class="rows">
+        <v-col
+          cols="12"
+          sm="4"
+          v-for="(javafxProject, index) in javafxFunProjects"
+          :key="index"
+        >
+          <v-card color="#385F73" dark>
+            <v-card-title class="text-h5">
+              {{ javafxProject.title }}</v-card-title
+            >
+
+            <v-card-subtitle>
+              {{ javafxProject.description }}
+            </v-card-subtitle>
+
+            <v-card-actions>
+              <a :href="javafxProject.details" target="_blank">
+                <v-btn text> Details </v-btn>
+              </a>
+              <v-spacer></v-spacer>
+              <a :href="javafxProject.githubLink" target="_blank">
+                <v-btn text> Github </v-btn>
+              </a>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+      </v-row>
+      <!-- End of JavaFX projects -->
 
       <!-- These all are Laravel Fun project -->
       <h1>Laravel Fun Projects</h1>
@@ -120,9 +153,8 @@ export default {
     vueProjects: [
       {
         title: "Vuetify Example Project",
-        description:
-          "E-commerce web app  done using VUE and VUETIFY. Goin on.",
-        details: "https://vercel.com/jimmyshukurow/vue-ecommerce",
+        description: "E-commerce web app  done using VUE and VUETIFY. Goin on.",
+        details: "https://vue-ecommerce-phi.vercel.app/#/",
         githubLink: "https://github.com/JimmyShukurow/VueEcoomerce",
       },
       {
@@ -145,6 +177,15 @@ export default {
           "This is an admin panel which is planned to use in all my Vue projects. Actually its not going well ...",
         details: "https://vue-admin-panel.vercel.app/#/",
         githubLink: "https://github.com/JimmyShukurow/VueAdminPanel",
+      },
+    ],
+    javafxFunProjects: [
+      {
+        title: "JavaFX Knight question solution",
+        description:
+          "This is math question's solution with JavaFX.",
+        details: "https://vue-admin-panel.vercel.app/#/",
+        githubLink: "https://github.com/JimmyShukurow/Chess-question",
       },
     ],
 
