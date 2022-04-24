@@ -41,7 +41,6 @@
       </v-row>
       <!-- End Of Vue Fun project -->
 
-
       <!-- These all are Laravel Fun project -->
       <h1>Laravel Fun Projects</h1>
       <br />
@@ -63,7 +62,7 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-               <a :href="laravelFunProject.githubLink" target="_blank">
+              <a :href="laravelFunProject.githubLink" target="_blank">
                 <v-btn text> Github </v-btn>
               </a>
             </v-card-actions>
@@ -107,7 +106,6 @@
         </v-col>
       </v-row>
       <!-- End of Laravel Serious project -->
-      
     </v-container>
   </div>
 </template>
@@ -120,6 +118,13 @@ export default {
   components: {},
   data: () => ({
     vueProjects: [
+      {
+        title: "Vuetify Example Project",
+        description:
+          "E-commerce web app  done using VUE and VUETIFY. Goin on.",
+        details: "https://vercel.com/jimmyshukurow/vue-ecommerce",
+        githubLink: "https://github.com/JimmyShukurow/VueEcoomerce",
+      },
       {
         title: "Vuex Example Project",
         description:
@@ -156,7 +161,7 @@ export default {
         details: "#",
         githubLink: "https://github.com/JimmyShukurow/shukurupler.denastiyasy",
       },
-       {
+      {
         title: "Admin Panel",
         description: "This Project is done using Laravel.",
         details: "#",
