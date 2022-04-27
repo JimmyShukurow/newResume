@@ -10,6 +10,36 @@
 
       <!-- These all are Vue Fun project -->
 
+      <h1>Spring Boot Projects</h1>
+      <br />
+
+      <v-row cols="8" class="rows">
+        <v-col
+          cols="12"
+          sm="4"
+          v-for="(springBootProject, index) in springBootProjects"
+          :key="index"
+        >
+          <v-card color="#385F73" dark>
+            <v-card-title class="text-h5"> {{ springBootProject.title }}</v-card-title>
+
+            <v-card-subtitle>
+              {{ springBootProject.description }}
+            </v-card-subtitle>
+
+            <v-card-actions>
+             
+              <v-spacer></v-spacer>
+              <a :href="springBootProject.githubLink" target="_blank">
+                <v-btn text> Github </v-btn>
+              </a>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+      </v-row>
+      <!-- End Of Vue Fun project -->
+      <!-- These all are Vue Fun project -->
+
       <h1>Vue Fun Projects</h1>
       <br />
 
@@ -40,6 +70,7 @@
         </v-col>
       </v-row>
       <!-- End Of Vue Fun project -->
+
       <!-- These all are JavaFX fun projects -->
       <h1>JavaFX Fun Projects</h1>
       <br />
@@ -182,13 +213,25 @@ export default {
     javafxFunProjects: [
       {
         title: "JavaFX Knight question solution",
-        description:
-          "This is math question's solution with JavaFX.",
+        description: "This is math question's solution with JavaFX.",
         details: "https://vue-admin-panel.vercel.app/#/",
         githubLink: "https://github.com/JimmyShukurow/Chess-question",
       },
     ],
-
+    springBootProjects: [
+      {
+        title: "Todo Project With GRADLE ",
+        description: "This Project is done by using Spring boot and GRADLE",
+        details: "#",
+        githubLink: "https://github.com/JimmyShukurow/SpringTodoWithRestApi",
+      },
+      {
+        title: "Simple CRUD With MAVEN ",
+        description: "This Project is done by using Spring boot and Maven, it is a simple Sudent CRUD system",
+        details: "#",
+        githubLink: "https://github.com/JimmyShukurow/SpringTodoWithRestApi",
+      },
+    ],
     laravelFunProjects: [
       {
         title: "Cumhuriyet Kargo",
