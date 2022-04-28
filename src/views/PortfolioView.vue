@@ -213,9 +213,15 @@ export default {
     javafxFunProjects: [
       {
         title: "JavaFX Knight question solution",
-        description: "This is math question's solution with JavaFX.",
-        details: "https://vue-admin-panel.vercel.app/#/",
+        description: "This is math question's solution with JavaFX and GRADLE.",
+        details: "https://vimeo.com/704160634",
         githubLink: "https://github.com/JimmyShukurow/Chess-question",
+      },
+       {
+        title: "JavaFX Vector Field App",
+        description: "This is a fun project showing Math and Geometry uses in JavaFX.",
+        details: "https://vimeo.com/695343876",
+        githubLink: "https://github.com/JimmyShukurow/VectorField",
       },
     ],
     springBootProjects: [
