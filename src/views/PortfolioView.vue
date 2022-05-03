@@ -217,7 +217,7 @@ export default {
         details: "https://vimeo.com/704160634",
         githubLink: "https://github.com/JimmyShukurow/Chess-question",
       },
-       {
+      {
         title: "JavaFX Vector Field App",
         description: "This is a fun project showing Math and Geometry uses in JavaFX.",
         details: "https://vimeo.com/695343876",
@@ -236,6 +236,12 @@ export default {
         description: "This Project is done by using Spring boot and Maven, it is a simple Sudent CRUD system",
         details: "#",
         githubLink: "https://github.com/JimmyShukurow/SpringTodoWithRestApi",
+      },
+      {
+        title: "Spring boot JWT with MAVEN ",
+        description: "This is JWT example for spring security with access token and refresh token",
+        details: "#",
+        githubLink: "https://github.com/JimmyShukurow/SpringSecurityJWT",
       },
     ],
     laravelFunProjects: [
